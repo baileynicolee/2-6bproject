@@ -16,8 +16,15 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}<link rel="stylesheet" href=CSS/styles.css>
+li a:hover {
+  background-color: #04AA6D;
 }
 
-li a:hover {
-  background-color: #111;
+li a:hover:not(.active) {
+  background-color: rgb(49, 16, 171);
+}
+
+.active {
+  background-color: #04AA6D;
 }
